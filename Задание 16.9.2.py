@@ -6,7 +6,7 @@ class Rectangle:
         self.heigth = heigth
 
     def __str__(self):
-        return f'Rectangle : {self.x}, {self.y}, {self.width}, {self.heigth}.'
+        return f'Rectangle: {self.x}, {self.y}, {self.width}, {self.heigth}.'
 
     def get_area(self):
         return self.width * self.heigth
